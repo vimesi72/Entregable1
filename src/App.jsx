@@ -10,7 +10,7 @@ function App() {
   const [phrase, setPhrase] = useState(getRandom(arrayPhrases));
   const [image, setImage] = useState(getRandom(arrayImages));
   const objStyles = {
-    backgroundImage: `url(../public/img/fondo${image}.jpg)`,
+    backgroundImage: `url(../img/fondo${image}.jpg)`,
   };
 
   return (
